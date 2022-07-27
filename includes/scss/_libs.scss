@@ -1,0 +1,25 @@
+/* Normalize */
+@import "libs/normalize/base";
+/* YUI Purecss */
+@import "libs/pure-css/grids";
+@import "libs/pure-css/buttons";
+@import "libs/pure-css/forms";
+@import "grids-responsive";
+// @import "grids-responsive-ie";
+/*
+Including the grids-responsive* conditionally, as the entire grids-responsive*.scss is a single mixin,
+	it won't be included during the import process.
+*/
+@include grids_responsive;
+/* Bootstrap */
+
+@import "libs/bootstrap3/type"; /* bootstrap v3 */
+@import "libs/bootstrap3/component-animations"; /* bootstrap v3 */
+@import "libs/bootstrap3/panels"; /* bootstrap v3 */
+/* Plugins */
+
+@import "libs/plugins/owl-carousel";
+@import "libs/plugins/owl-theme";
+@import "libs/plugins/fancybox"; /* FancyB.ox v2.1.5 */
+@import "libs/plugins/royalslider"; /* Royal Slider v1.0.5 - don't change */
+@import "libs/plugins/rs-default"; /*  RoyalSlider Default Skin */

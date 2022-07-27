@@ -1,0 +1,196 @@
+@use "./mixin-respond.scss";
+
+// PAGE WIDE
+.section-feature {
+	padding: 2.5rem 0;
+}
+
+.call-to-action-wrapper {
+	display: flex;
+}
+
+.button-navara {
+	font-family: "Nissan Regular", arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	background-color: var(--nissan-red);
+	border-radius: 0;
+	color: white;
+	padding: 0.75rem 1.25rem;
+	font-size: 0.875rem;
+}
+
+.full-width-image-wrapper {
+	.full-width-image {
+		width: 100%;
+		height: auto;
+	}
+}
+
+// SECTION CATEGORY HEADINGS
+
+.section-category-heading {
+	padding: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.sch-wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.sch-title {
+	font-family: "Nissan Bold", arial, sans-serif;
+	font-size: 0.875rem;
+}
+
+.sch-tagline {
+	font-size: 1.75rem;
+}
+
+// HERO SECTION
+
+.hero-image {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+// PAGE HEADING
+
+.page-heading-overview {
+	padding: 40px 0;
+	text-align: center;
+	background-color: rgb(237, 237, 237);
+	transform: translatey(-0.3rem);
+}
+
+.pho-heading {
+	font-family: "Nissan Light", arial, sans-serif;
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 400;
+	padding: 0 0 2.5rem;
+}
+
+.pho-text {
+	line-height: 1.6em;
+	margin-bottom: 0.625rem;
+}
+
+.pho-button-navara {
+	margin-top: 1rem;
+}
+
+// TICK TOCK SECTION
+
+.tick-tock {
+	width: 100%;
+}
+
+.tt-wrapper {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 3rem;
+
+	@include respond-only-screen(978px) {
+		flex-direction: row;
+		text-align: left;
+		margin-bottom: 0;
+	}
+}
+
+.tt-image-wrapper {
+	flex: 1 0 50%;
+}
+
+.tt-image {
+	width: 100%;
+}
+
+.tt-image-wrapper-reverse {
+	@include respond-only-screen(978px) {
+		order: 1;
+	}
+}
+
+.tt-text-wrapper {
+	padding: 1rem;
+	flex: 1 0 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 0.625rem;
+}
+
+.tt-heading {
+	font-size: 1.375rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.1em;
+}
+
+.tt-text {
+	font-family: "Nissan Light", arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.6em;
+	padding-bottom: 1.25rem;
+}
+
+.tt-disclaimer-text {
+	font-size: 0.625rem;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+.tt-text-wrapper-reverse {
+	order: 2;
+
+	@include respond-only-screen(768px) {
+		order: 1;
+	}
+}
+
+// ROW STACKED MULTI SECTION
+
+.row-stacked-multi {
+	display: flex;
+	column-gap: 1rem;
+	flex-direction: column;
+
+	@include respond-only-screen(768px) {
+		flex-direction: row;
+	}
+}
+
+.rsm-item-wrapper {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: 2rem 0;
+
+	@include respond-only-screen(768px) {
+		margin: 0;
+	}
+}
+
+.rsm-image {
+	flex: 1 0 50%;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.rsm-text-wrapper {
+	flex: 1 0 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.rsm-text-heading {
+	text-transform: uppercase;
+	margin: 0.5em 0;
+}

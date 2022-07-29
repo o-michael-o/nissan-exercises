@@ -1,9 +1,7 @@
 // OWL CAROUSEL HERO
-.owl-carousel-hero {
-	.och-image {
-		width: 100%;
-		height: auto;
-	}
+.och-image {
+	width: 100%;
+	height: auto;
 }
 
 // OWL CAROUSEL PROMO
@@ -30,15 +28,15 @@
 	position: absolute;
 	bottom: 0;
 	transform: translateY(calc(100% - (0.875rem + (2 * 0.625rem))));
+	transition: transform 0.5s ease-in-out;
 
 	&:hover {
 		transform: translateY(0%);
-		transition: 0.5s ease-in-out;
 	}
 }
 
 .ocp-heading {
-	font-family: "Nissan Bold";
+	@include primaryFontStackBold;
 	font-weight: 400;
 	font-size: 0.875rem;
 	padding: 0 0.625rem;
@@ -50,7 +48,7 @@
 }
 
 .ocp-text {
-	font-family: "Nissan Regular";
+	@include primaryFontStack;
 	font-weight: 400;
 	font-size: 0.875rem;
 	padding: 0.625rem;

@@ -8,8 +8,11 @@ $(document).ready(function() {
     autoplayHoverPause: true,
     navigation: false,
 
+    // Responsive
     items: 1,
+    responsive: true,
     itemsDesktop: [1024, 1],
+    itemsDesktopSmall: [979, 1],
     itemsTablet: [768, 1],
     itemsMobile: [568, 1]
   });

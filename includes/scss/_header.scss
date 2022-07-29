@@ -1,9 +1,6 @@
-@import "colors.scss";
-@import "typography.scss";
-
 .main-nav {
 	background-color: #fff;
-	font-family: "Nissan Regular", Arial, sans-serif;
+	@include primaryFontStack;
 }
 
 .brand-logo-wrapper {
@@ -14,15 +11,24 @@
 
 // NAV LOGO
 
+.bl-logo-link {
+	width: 100px;
+	height: 100px;
+
+	display: flex;
+}
+
 .bl-logo-image {
-	width: 72px;
-	height: 100%;
+	object-fit: cover;
+	width: 100%;
+	height: auto;
 }
 
 .bl-heading {
-	font-family: "Nissan Light";
+	@include primaryFontStackLight;
 	text-transform: uppercase;
-	font-size: 2.8125rem;
+	font-size: 34px;
+	letter-spacing: 0.7px;
 }
 
 .bl-heading-link {
@@ -32,12 +38,16 @@
 }
 
 // NAV WRAPPER
+.nav-wrapper {
+	border-top: 1px solid #d9d9d9;
+	box-shadow: 0 4px 4px -4px rgb(0 0 0 / 50%);
+}
 
 .nw-list {
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
-	min-height: 3rem;
+	min-height: 48px;
 	margin-bottom: 0;
 }
 
@@ -47,12 +57,11 @@
 	flex-wrap: wrap;
 	cursor: pointer;
 	border-bottom: 3px solid transparent;
+	transition: border-bottom 0.3s ease-in;
 
-	// &.active {
-	// 	border-bottom: 3px solid var(--nissan-red);
-	// }
-
-	transition: 0.2s ease-in;
+	&.active {
+		border-bottom: 3px solid var(--nissan-red);
+	}
 
 	&:hover {
 		border-bottom: 3px solid var(--nissan-red);
@@ -71,7 +80,7 @@
 }
 
 .nw-text {
-	font-family: "Nissan Regular", Arial, sans-serif;
-	font-size: 12px;
+	@include primaryFontStack;
+	font-size: 14px;
 	font-weight: 400;
 }

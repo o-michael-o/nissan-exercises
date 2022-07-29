@@ -2,27 +2,29 @@
 	font-weight: 400;
 	font-size: 1.5rem;
 	padding: 1.5rem 0;
-	font-family: "Nissan Light";
+	@include primaryFontStackLight;
 }
 
-.vehicle {
-	.nv-image {
-		max-width: 100%;
-	}
+.nv-vehicle {
+	padding: 10px;
+}
 
-	.nv-title {
-		font-family: "Nissan Bold";
-		font-size: 1.5rem;
-		font-weight: 400;
-		margin: 1.25rem 0;
-	}
+.nv-image {
+	max-width: 100%;
+}
 
-	.nv-subtitle {
-		font-family: "Nissan Bold";
-		font-size: 10px;
-		text-transform: uppercase;
-		color: var(--nissan-red);
-		margin: 0.625rem 0;
-		font-weight: 400;
-	}
+.nv-title {
+	@include primaryFontStackBold;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 1.25rem 0;
+}
+
+.nv-subtitle {
+	@include primaryFontStackBold;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: var(--nissan-red);
+	margin: 0.625rem 0;
+	font-weight: 400;
 }

@@ -25,7 +25,7 @@
       "oAP" : "\/images\/home\/promos\/1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -38,7 +38,7 @@
       "oAP" : "\/images\/home\/promos\/2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -51,7 +51,7 @@
       "oAP" : "\/images\/home\/promos\/3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -64,7 +64,7 @@
       "oAP" : "\/images\/home\/promos\/4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -77,7 +77,7 @@
       "oAP" : "\/images\/home\/promos\/5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -90,7 +90,7 @@
       "oAP" : "\/images\/home\/promos\/6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -103,7 +103,7 @@
       "oAP" : "\/images\/home\/slideshow\/1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -116,7 +116,7 @@
       "oAP" : "\/images\/home\/slideshow\/2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -129,7 +129,7 @@
       "oAP" : "\/images\/home\/slideshow\/3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -142,7 +142,7 @@
       "oAP" : "\/images\/home\/slideshow\/4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -155,7 +155,7 @@
       "oAP" : "\/images\/home\/slideshow\/5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -168,7 +168,7 @@
       "oAP" : "\/images\/home\/slideshow\/6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -181,7 +181,7 @@
       "oAP" : "\/images\/navara\/full-width-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -194,7 +194,7 @@
       "oAP" : "\/images\/navara\/hero-image.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -207,7 +207,7 @@
       "oAP" : "\/images\/navara\/rsm-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -220,7 +220,7 @@
       "oAP" : "\/images\/navara\/rsm-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -233,7 +233,7 @@
       "oAP" : "\/images\/navara\/rsm-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -244,8 +244,8 @@
       "oA" : 0,
       "oAP" : "\/images\/navara\/tt-1-1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -257,8 +257,8 @@
       "oA" : 0,
       "oAP" : "\/images\/navara\/tt-1-2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -270,8 +270,8 @@
       "oA" : 0,
       "oAP" : "\/images\/navara\/tt-1-3.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -285,7 +285,7 @@
       "oAP" : "\/images\/new-vehicles\/juke.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -298,7 +298,7 @@
       "oAP" : "\/images\/new-vehicles\/leaf.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -311,7 +311,7 @@
       "oAP" : "\/images\/new-vehicles\/navara.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -324,7 +324,7 @@
       "oAP" : "\/images\/new-vehicles\/new-pathfinder.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -337,7 +337,7 @@
       "oAP" : "\/images\/new-vehicles\/patrol.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -350,7 +350,7 @@
       "oAP" : "\/images\/new-vehicles\/qashqai.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -363,7 +363,7 @@
       "oAP" : "\/images\/new-vehicles\/x-trail.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -376,7 +376,7 @@
       "oAP" : "\/images\/new-vehicles\/z.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -387,8 +387,8 @@
       "oA" : 0,
       "oAP" : "\/images\/nissan-logo.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -943,12 +943,6 @@
       "oAP" : "\/new-vehicles\/index.html",
       "oF" : 0
     },
-    "\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/node_modules",
-      "oF" : 0
-    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -964,6 +958,25 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/stock\/index.html" : {
       "cB" : 0,
@@ -990,11 +1003,11 @@
   },
   "projectAttributes" : {
     "creationDate" : 679991812.99798596,
-    "displayValue" : "michael",
+    "displayValue" : "nissan-exercises-github",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-tar",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 680411282.632851
+    "lastBuiltDate" : 681002751.75185001
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

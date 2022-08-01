@@ -1,0 +1,199 @@
+@use "./mixin-respond.scss";
+
+// PAGE WIDE
+.section-feature {
+	padding: 40px 0;
+}
+
+.call-to-action-wrapper {
+	display: flex;
+}
+
+.button-navara {
+	@include primaryFontStack;
+	font-weight: 400;
+	text-transform: uppercase;
+	background-color: var(--nissan-red);
+	border-radius: 0;
+	color: white;
+	padding: 12px 20px;
+	font-size: 14px;
+}
+
+.full-width-image {
+	width: 100%;
+	height: auto;
+}
+
+// SECTION CATEGORY HEADINGS
+
+.section-category-heading {
+	padding: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.sch-wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.sch-title {
+	@include primaryFontStackBold;
+	font-size: 14px;
+}
+
+.sch-tagline {
+	font-size: 28px;
+}
+
+// HERO SECTION
+
+.hero-image {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+// PAGE HEADING
+
+.page-heading-overview {
+	padding: 40px 0;
+	text-align: center;
+	background-color: $black8;
+	transform: translatey(-0.3rem);
+}
+
+.pho-heading {
+	@include primaryFontStackLight;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 400;
+	padding: 0 0 20px;
+
+	@include respond-only-screen($bp-md) {
+		padding: 0 0 2.5rem;
+	}
+}
+
+.pho-text {
+	line-height: 1.6em;
+	margin-bottom: 0.625rem;
+}
+
+.pho-button-navara {
+	margin-top: 1rem;
+}
+
+// TICK TOCK SECTION
+
+.tick-tock {
+	width: 100%;
+}
+
+.tt-wrapper {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 3rem;
+
+	@include respond-only-screen($bp-md) {
+		flex-direction: row;
+		text-align: left;
+		margin-bottom: 0;
+	}
+}
+
+.tt-image-wrapper {
+	flex: 1 0 50%;
+}
+
+.tt-image {
+	width: 100%;
+}
+
+.tt-image-wrapper-reverse {
+	@include respond-only-screen($bp-md) {
+		order: 1;
+	}
+}
+
+.tt-text-wrapper {
+	padding: 1rem;
+	flex: 1 0 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 0.625rem;
+}
+
+.tt-heading {
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.1em;
+}
+
+.tt-text {
+	@include primaryFontStackLight;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6em;
+	padding-bottom: 1.25rem;
+}
+
+.tt-disclaimer-text {
+	font-size: 10px;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+.tt-text-wrapper-reverse {
+	order: 2;
+
+	@include respond-only-screen($bp-md) {
+		order: 1;
+	}
+}
+
+// ROW STACKED MULTI SECTION
+
+.row-stacked-multi {
+	display: flex;
+	column-gap: 1rem;
+	flex-direction: column;
+
+	@include respond-only-screen($bp-md) {
+		flex-direction: row;
+	}
+}
+
+.rsm-item-wrapper {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: 2rem 0;
+
+	@include respond-only-screen($bp-md) {
+		margin: 0;
+	}
+}
+
+.rsm-image {
+	flex: 1 0 50%;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.rsm-text-wrapper {
+	flex: 1 0 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.rsm-text-heading {
+	text-transform: uppercase;
+	margin: 0.5em 0;
+}

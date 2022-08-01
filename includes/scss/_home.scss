@@ -1,0 +1,55 @@
+// OWL CAROUSEL HERO
+.och-image {
+	width: 100%;
+	height: auto;
+}
+
+// OWL CAROUSEL PROMO
+.owl-carousel-promo-wrapper {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.ocp-item {
+	position: relative;
+	overflow: hidden;
+	margin: 0 1px;
+}
+
+.ocp-image {
+	width: 100%;
+	object-fit: cover;
+}
+
+.ocp-text-wrapper {
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	transform: translateY(calc(100% - (0.875rem + (2 * 0.625rem))));
+	transition: transform 0.5s ease-in-out;
+
+	&:hover {
+		transform: translateY(0%);
+	}
+}
+
+.ocp-heading {
+	@include primaryFontStackBold;
+	font-weight: 400;
+	font-size: 0.875rem;
+	padding: 0 0.625rem;
+	text-transform: uppercase;
+}
+
+.ocp-content {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ocp-text {
+	@include primaryFontStack;
+	font-weight: 400;
+	font-size: 0.875rem;
+	padding: 0.625rem;
+}

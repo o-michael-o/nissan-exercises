@@ -1,0 +1,163 @@
+//	Owl Carousel Owl Demo Theme v1.3.3
+
+.owl-theme .owl-controls {
+	margin-top: 10px;
+	text-align: center;
+}
+
+// Styling Next and Prev buttons
+
+.owl-theme .owl-controls .owl-buttons div {
+	color: $primaryCol;
+	display: none;
+
+	margin: 5px;
+	padding: 15px 15px;
+	font-size: 24px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #fff;
+	filter: Alpha(Opacity=50); //IE7 fix
+	opacity: 0.7;
+
+	@include respond-screen($bp-md) {
+		display: inline-block;
+	}
+
+	&:hover {
+		opacity: 1;
+	}
+}
+// Clickable class fix problem with hover on touch devices
+// Use it for non-touch hover action
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	filter: Alpha(Opacity=100); //IE7 fix
+	opacity: 1;
+	text-decoration: none;
+}
+
+// Styling Pagination
+
+.owl-theme .owl-controls .owl-page {
+	display: inline-block;
+	zoom: 1;
+	*display: inline; //IE7 life-saver
+}
+.owl-theme .owl-controls .owl-page span {
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50); //IE7 fix
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #ccc;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+	filter: Alpha(Opacity=100); //IE7 fix
+	opacity: 1;
+}
+
+// If PaginationNumbers is true
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+	height: auto;
+	width: auto;
+	color: #fff;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+// preloading images
+.owl-item.loading {
+	min-height: 150px;
+	background: url("https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/images/AjaxLoader.gif") no-repeat center center;
+}
+
+.vehicles {
+	.banner .owl-pagination {
+		position: absolute;
+		bottom: 0;
+		left: 45%;
+	}
+
+	.banner .owl-controls {
+		margin: 0;
+	}
+
+	#vehicle-carousel-2-2 {
+		margin-bottom: 80px;
+		.owl-pagination {
+			bottom: -50px;
+		}
+	}
+
+	.overview-carousel,
+	.tech-carousel {
+		.owl-pagination {
+			left: 0%;
+			right: 0%;
+			display: none;
+			@include respond-screen($bp-md) {
+				display: block;
+				bottom: 30%;
+			}
+			@include respond-screen($bp-lg) {
+				display: block;
+				bottom: 22%;
+			}
+		}
+	}
+
+	.tech-carousel {
+		.owl-pagination {
+			@include respond-screen($bp-lg) {
+				bottom: 27%;
+			}
+		}
+	}
+
+	.image-right {
+		.owl-pagination {
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;
+			bottom: -8%;
+			@include respond-screen($bp-md) {
+				right: 45%;
+				bottom: 0;
+			}
+		}
+	}
+
+	.owl-prev {
+		position: absolute;
+		top: 50%;
+		right: 90.5%;
+	}
+
+	.owl-next {
+		position: absolute;
+		top: 50%;
+		left: 90.5%;
+	}
+}
+
+.ranger-raptor {
+	.owl-prev {
+		right: 95%;
+	}
+
+	.owl-next {
+		left: 95%;
+	}
+}
